@@ -16,6 +16,7 @@
       <version>4.0.1</version>
       <scope>provided</scope>
     </dependency>
+
     <!-- https://mvnrepository.com/artifact/javax.servlet.jsp/javax.servlet.jsp-api -->
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
@@ -23,19 +24,28 @@
       <version>2.3.3</version>
       <scope>provided</scope>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/javax.servlet.jsp.jstl-api -->
+
+    <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
     <dependency>
-      <groupId>javax.servlet.jsp.jstl</groupId>
-      <artifactId>javax.servlet.jsp.jstl-api</artifactId>
-      <version>1.2.2</version>
-      <scope>provided</scope>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
     </dependency>
+
+
     <!-- https://mvnrepository.com/artifact/org.apache.tomcat.embed/tomcat-embed-core -->
     <dependency>
       <groupId>org.apache.tomcat.embed</groupId>
       <artifactId>tomcat-embed-core</artifactId>
       <version>11.0.0</version>
     </dependency>
+
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-impl</artifactId>
+      <version>1.2.5</version>
+    </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -43,6 +53,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+
   <build>
     <finalName>TaskWeb</finalName>
   </build>
